@@ -9,36 +9,39 @@ label start:
     e "Uh oh, I better get ready for school!"
     
     scene lighton
+
     e "Should I switch off my room lights now or later?"
+    play music "switchofflights?.mp3" noloop
 
     
     menu:
         "Switch Off Now":
             "I will switch off the lights now."
+            play music "switchofflightsnow.mp3" noloop
             scene dark
 
         "Switch Off Later":
             "I will switch off the lights later."
+            play music "switchofflightslater.mp3" noloop
             scene lighton
    
+   
     scene brushing
-    "I should brush my teeth"
-    play music "brush.mp3" noloop
-
+   
     #Sarah brushes her teeth (Sound)
     e "Should I turn off the tap now or later?"
+    play music "turnofftab?.mp3" noloop
     
     menu:
         "Turn Off Now":
+            play music "offtapnow.mp3" noloop
             "I will turn off the tap now."
             scene tapoff
-            
             
         "Turn Off Later":
             scene tapoff
             "I will turn off the tap later."
 
-    
     "I should get ready to leave school"
     "Should I take the bus, bike, walk or car?"
     menu:
