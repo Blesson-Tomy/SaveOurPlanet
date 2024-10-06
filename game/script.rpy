@@ -1,90 +1,76 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-
-# The game starts here.
+﻿define e = Character(None, image="eileen", kind=bubble) # Eileen
 
 label start:
+    scene waking
+    play music "beautifulday.mp3" noloop
+    
+    "YAWN!
+    It's a beautiful day!"
+    e "Uh oh, I better get ready for school!"
+    
+    scene lighton
+    e "Should I switch off my room lights now or later?"
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene new
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show Sarah happy
-
-    # These display lines of dialogue.
-
-
-    ###Scene 1:Bedroom
-
-    ###Sarah yawns in the morning
-    # Sarah wakes up in the morning with a yawning face.
-    "YAWN!"
-    "It's a beautiful day!"
-    "Time to get ready for school"
-    #Should I switch off the lights now or later?
-        #Option: Now vs later
-    "Should I switch off the lights now or later?"
-
-    show Sarah happy at left
-
+    
     menu:
         "Switch Off Now":
             "I will switch off the lights now."
+            scene dark
+
         "Switch Off Later":
             "I will switch off the lights later."
-    ###darker room image
-    show Sarah happy
-    #Sarah goes to the washroom
+            scene lighton
+   
+    scene brushing
     "I should brush my teeth"
+    play music "brush.mp3" noloop
+
     #Sarah brushes her teeth (Sound)
-    "Should I turn off the tap now or later?"
-    show Sarah at left
+    e "Should I turn off the tap now or later?"
+    
     menu:
         "Turn Off Now":
             "I will turn off the tap now."
-            ###Tap off tap on image
+            scene tapoff
+            
+            
         "Turn Off Later":
+            scene tapoff
             "I will turn off the tap later."
 
-    ###Scene 2: Washroom
-        #Option:turn off tap now or later (insert SDG for each of them)
-    ###Tap off tap on image
-    #COmmute
+    
     "I should get ready to leave school"
-    ###Outside, an image while Sarah decides to commute
-    #Sarah has to choose a ride - menu
     "Should I take the bus, bike, walk or car?"
     menu:
         "Bus":
+            scene bus
             "Let's take the bus today."
+            
         "Bike":
+            scene bicycle
             "Let's ride my bike."
+            
         "Walk":
+            scene walking
             "I think I will walk to school today."
+            
         "Car":
-            "I will ask my mom to drop me to school."
-
-    #Sarah  has 1) cuar 2) bike 3) bus 4) walk
-    ###Sarah on a bike image
-    ###Sarah on a bus image
-    ###Sarah walking image
-    ###Sarah in a car image
+            scene car
+            "I will take the car today."
+            
     #Sarah reaches school
     ###`Outside School image
     ###trash image
+    scene school
+    "Finally, I reached school!"
+
+    scene reflecting
     "Oh, there is alot of trash around here, what should I do"
     menu:
         "Pick up the trash":
+            scene pickuptrash
             "I will pick up the trash now."
+            
         "Leave the trash":
             "I think I should leave the trash."
 
@@ -96,7 +82,9 @@ label start:
     #talk about climate action (data, ppt slides)
     ###Miss teaching about Climate Action image
     #Sarah buying a juice, can I have a recycled straw please?
+    scene reflecting
     "I think I should do my part in saving the environment."
+    e "I should ask for a recycled straw."
     "Can I have a recycled straw please?"
     ###Sarah buying juice image
     ###Sarah with a recycled straw image
@@ -106,6 +94,5 @@ label start:
     ###Sarah reflection image - (SDG Goals met today Slide)
     #sleep peacefully 
     ###Sarah sleeping image
-    "check"
 
 return
