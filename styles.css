@@ -1,0 +1,50 @@
+
+
+.lander{
+    height: 100vh;
+    background-image: url(img.webp);
+    background-size: cover;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    columns: white;
+    
+}
+
+.navbar{
+    background-color: rgb(2, 21, 49) !important;
+    color: white;
+}
+
+.navbar-brand,.c{
+    color: white;
+}
+
+.navbar-brand:hover, .c:hover
+{
+    color: blue;
+    transition: 0.5s;
+}
+h1{
+    color: red;
+    font-weight: bold;
+}
+
+h1:hover{
+    color: rgb(255, 191, 0);
+    transition: 0.5s;
+}
+
+p{
+    color: white;
+}
+
+.wic{
+    align-items: center;
+}
+
+video{
+    padding-top: -200px;
+}
