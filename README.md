@@ -1,26 +1,20 @@
 # NASA SPACE APPS HACKATHON: Team Alpha Clan
 
-A simple game to help high school students understand the choices they can make to ensure the growth and development of our world!
+An international 36hr hackathon that invites students and developers from anywhere in the world to solve the pressing issues faced in the world today. 
 
-# Team Members
-1. Annu Robin
-2. Archana PS
-3. Kavya Nandana Sunil
-4. Minnu Mathew
-5. Siya Joe
-
-
-
-# Smart India Hackathon 2024 (Prelims): Data download Duplication Alert System (DDAS)
-
-The Smart India Hackathon is conducted by the Government of India as part of a large scale invitation to solve the various problems faced by companies and government institutions across the country. It is an annual event with a prelims round conducted by local institutes and then a national round for those who qualify for the prelims round.
 
 # PROBLEM STATEMENT:
+
+In 2015, the United Nations created the 2030 Sustainable Development Goals (SDG) Agenda—a set of 17 goals focused on addressing global concerns such as climate change, global poverty, pollution, inequality, and many more. As we embark on the halfway point of the SDG Agenda, we aim to find new ways to engage youth with the tools available to advance these goals and measure our progress in achieving them. Your challenge is to develop a lesson plan that educates high school students about an SDG, and can be integrated into a science unit that may already be part of the curriculum (e.g., a unit on weather, geology, soil health, etc.).
 
 
 # OUR SOLUTION:
 
-Our solution is to develop an extension for the browsers. This extension will read the metadata of the downloaded files and store them using a Hashmap. The key and it's values will be checked when another download is triggered. If a duplicate exists in Hashmap, then the user will be prompted to confirm download. Else, the download is executed. There is a button feature implemented to clear the hashmap when necessary.
+We designed a lesson plan that engaged students outside the classroom rather than inside. Due to the rising use of social media and other apps, students have had a decreased attention span. This makes it difficult for them to focus and see the meaning in what they are being taught. Our lesson plan is not just only hands on, but offers an interactive game that allows students to practice making the right choices from the start - once they wake up, once they reach school and on the way back. 
+
+A simple game to help high school students understand the choices they can make to ensure the growth and development of our world! We incorporated this game into our lesson plan for grades 8-10. 
+
+At the end of the day, we hope that by influencing the young of today, we can influence the young of tomorrow to lead sustainable and climate friendly life styles. 
 
 # Tech Stack Used
 1. HTML
@@ -28,4 +22,9 @@ Our solution is to develop an extension for the browsers. This extension will re
 3. Python
 4. RenPy Library
 
-
+# Team Members
+1. (Annu Robin)[https://github.com/AnnuRobin]
+2. (Archana PS)[https://github.com/archana124git]
+3. (Kavya Nandana Sunil)[https://github.com/Kavya-sanil]
+4. (Minnu Mathew)[https://github.com/minnumathew]
+5. (Siya Joe)[https://github.com/Siajoe]
