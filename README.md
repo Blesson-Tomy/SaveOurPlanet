@@ -5,7 +5,7 @@ An international 36hr hackathon that invites students and developers from anywhe
 
 # PROBLEM STATEMENT:
 
-In 2015, the United Nations created the 2030 Sustainable Development Goals (SDG) Agenda—a set of 17 goals focused on addressing global concerns such as climate change, global poverty, pollution, inequality, and many more. As we embark on the halfway point of the SDG Agenda, we aim to find new ways to engage youth with the tools available to advance these goals and measure our progress in achieving them. Your challenge is to develop a lesson plan that educates high school students about an SDG, and can be integrated into a science unit that may already be part of the curriculum (e.g., a unit on weather, geology, soil health, etc.).
+In 2015, the United Nations created the 2030 Sustainable Development Goals [SDG] Agenda—a set of 17 goals focused on addressing global concerns such as climate change, global poverty, pollution, inequality, and many more. As we embark on the halfway point of the SDG Agenda, we aim to find new ways to engage youth with the tools available to advance these goals and measure our progress in achieving them. Your challenge is to develop a lesson plan that educates high school students about an SDG, and can be integrated into a science unit that may already be part of the curriculum [e.g., a unit on weather, geology, soil health, etc.].
 
 
 # OUR SOLUTION:
@@ -23,8 +23,8 @@ At the end of the day, we hope that by influencing the young of today, we can in
 4. RenPy Library
 
 # Team Members
-1. (Annu Robin)[https://github.com/AnnuRobin]
-2. (Archana PS)[https://github.com/archana124git]
-3. (Kavya Nandana Sunil)[https://github.com/Kavya-sanil]
-4. (Minnu Mathew)[https://github.com/minnumathew]
-5. (Siya Joe)[https://github.com/Siajoe]
+1. [Annu Robin](https://github.com/AnnuRobin)
+2. [Archana PS](https://github.com/archana124gi)
+3. [Kavya Nandana Sunil](https://github.com/Kavya-sanil)
+4. [Minnu Mathew](https://github.com/minnumathew)
+5. [Siya Joe](https://github.com/Siajoe)
