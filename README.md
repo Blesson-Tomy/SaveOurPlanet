@@ -25,6 +25,7 @@ At the end of the day, we hope that by influencing the young of today, we can in
 # Team Members
 1. [Annu Robin](https://github.com/AnnuRobin)
 2. [Archana PS](https://github.com/archana124gi)
-3. [Kavya Nandana Sunil](https://github.com/Kavya-sanil)
-4. [Minnu Mathew](https://github.com/minnumathew)
-5. [Siya Joe](https://github.com/Siajoe)
+3. [Blesson Karikulammalayil Tomy](https://github.com/blesson-tomy)
+4. [Kavya Nandana Sunil](https://github.com/Kavya-sanil)
+5. [Minnu Mathew](https://github.com/minnumathew)
+6. [Siya Joe](https://github.com/Siajoe)

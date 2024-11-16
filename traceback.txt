@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 37, in script
+    eileen "Time to get ready for school"
+Exception: Sayer 'eileen' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 37, in script
+    eileen "Time to get ready for school"
+  File "/Users/blesson_tomy/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/Users/blesson_tomy/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/blesson_tomy/Desktop/renpy-8.3.2-sdk/renpy/ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'eileen' is not defined.
+
+macOS-10.16-x86_64-i386-64bit x86_64
+Ren'Py 8.3.2.24090902
+SaveOurPlanet 1.0
+Sun Oct  6 18:43:18 2024
